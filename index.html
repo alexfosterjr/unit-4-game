@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <div>
+        <p id="gameTitle">The Crystal Collector!</p>
+    </div>
+    <div id="instructions">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your
+            total score.</p>
+        <p>You win the game by matching your total score to random number. You lose the game if your total score goes
+            aboce the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    </div>
+
+    <div class="clearfix" id="randomNum"></div>
+
+    <div id="scoreboard" class="clearfix">
+        <div id="wins">Wins: 0</div>
+        <div id="losses">Losses: 0</div>
+    </div>
+
+    <div>
+        <button>
+            <img src="assets/images/purple.jpg" id="crystal-1" class="crystal" />
+        </button>
+
+        <button>
+            <img src="assets/images/blue.jpg" id="crystal-2" class="crystal" />
+        </button>
+
+        <button>
+            <img src="assets/images/green.jpg" id="crystal-3" class="crystal" />
+        </button>
+
+        <button>
+            <img src="assets/images/deepPurple.jpg" id="crystal-4" class="crystal" />
+        </button>
+    </div>
+
+    <div id="totalScoreIs" class="backgroundColor">Your total score is:</div>
+    <div id="userScore" class="backgroundColor"></div>
+</body>
+
+</html>

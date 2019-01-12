@@ -1,0 +1,67 @@
+body{
+    background-image : url("../images/prism.png");
+}
+
+/* title box */
+
+#gameTitle{
+    color : #fffbef;
+    background-color: #cb6f34;
+    text-align: center;
+    font-size: 36pt; 
+}
+
+/* instructions styling */
+
+#instructions{
+    background-color:#fbe6cf;
+    color: darkseagreen;
+    text-align: center;
+    font-size:12pt;
+
+}
+
+/* random Number box styling */
+#randomNum{
+    /* float: left; */
+    background-color:mediumseagreen;
+    color:indigo;
+    height:100px;
+    width: 200px;
+    margin: 5px;
+
+    
+}
+
+#scoreboard{
+  /* float: left; */
+    background-color: turquoise;
+    color:purple;
+    height:100px;
+    width: 200px;
+    margin: 5px;
+
+}
+/* set crystal size */
+.crystal{
+    height: 100px;
+    width: 100px;
+    display:block;
+}
+
+.backgroundColor{
+    background-color: lightseagreen;
+    height:100px;
+    width: 200px;
+    margin: 5px;
+}
+
+#totalScoreIs{
+    height:20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
